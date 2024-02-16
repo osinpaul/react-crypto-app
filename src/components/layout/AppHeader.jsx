@@ -1,5 +1,7 @@
 import React from "react";
 import {Menu, Layout, theme} from "antd";
+const {Header, Content, Footer, Sider} = Layout;
+
 export default function AppHeader() {
     const {
         token: {colorBgContainer, borderRadiusLG},
